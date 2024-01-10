@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Money-Heist-was-first-released-on-Antena-3-in-Spain-in-2017-Netflix.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
