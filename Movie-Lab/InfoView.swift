@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct InfoView: View {
-    var body: some View {
+    var titleOn: Bool
 
+    var body: some View {
         NavigationView {
-            
             List(Post.data) { post in
                 NavigationLink {
                     InfoDetails(post: post)
@@ -12,12 +12,13 @@ struct InfoView: View {
                     InfoRow(post: post)
                 }
             }
-            .navigationTitle("Movies")
             .listStyle(.plain)
+            .navigationBarTitle(titleOn ? "Movies" : "")
         }
     }
 }
 
+
 #Preview {
-    InfoView()
+    InfoView(titleOn: true)
 }
