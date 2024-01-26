@@ -46,9 +46,8 @@ struct SettingsView: View {
                     }
                 }
             }
-            .onChange(of: titleOn) { newValue in
-                print("Статус заголовка изменен на \(newValue ? "включен" : "выключен")")
-                
+            .onChange(of: titleOn) {
+                print("Статус заголовка изменен на \(titleOn ? "включен" : "выключен")")
             }
         }
     }

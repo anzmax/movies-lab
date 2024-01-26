@@ -10,9 +10,9 @@ struct ContentView: View {
                     Label("Info", systemImage: "info.circle.fill")
                 }
 
-            Text("Hello")
+            Text("Map")
                 .tabItem {
-                    Label("Hello", systemImage: "circle.hexagongrid.circle")
+                    Label("Map", systemImage: "map.circle")
                 }
 
             SettingsView(titleOn: titleOn)

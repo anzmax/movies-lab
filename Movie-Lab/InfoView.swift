@@ -7,7 +7,8 @@ struct InfoView: View {
         NavigationView {
             List(Post.data) { post in
                 NavigationLink {
-                    InfoDetails(post: post)
+                    let annotationItem = AnnotationItem(coordinate: post.location, title: post.title)
+                    MapView(annotationItems: [annotationItem])
                 } label: {
                     InfoRow(post: post)
                 }
@@ -17,7 +18,6 @@ struct InfoView: View {
         }
     }
 }
-
 
 #Preview {
     InfoView(titleOn: true)

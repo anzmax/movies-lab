@@ -15,7 +15,7 @@
 		F4A807B72B4554AC00EAD698 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807B62B4554AC00EAD698 /* InfoView.swift */; };
 		F4A807B92B45564800EAD698 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807B82B45564800EAD698 /* InfoRow.swift */; };
 		F4A807BB2B45586800EAD698 /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807BA2B45586800EAD698 /* InfoDetails.swift */; };
-		F4A807BD2B455C3B00EAD698 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807BC2B455C3B00EAD698 /* HelloView.swift */; };
+		F4A807BD2B455C3B00EAD698 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807BC2B455C3B00EAD698 /* MapView.swift */; };
 		F4A807BF2B455C4700EAD698 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807BE2B455C4700EAD698 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		F4A807B62B4554AC00EAD698 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		F4A807B82B45564800EAD698 /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		F4A807BA2B45586800EAD698 /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
-		F4A807BC2B455C3B00EAD698 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		F4A807BC2B455C3B00EAD698 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F4A807BE2B455C4700EAD698 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 				F4A807B62B4554AC00EAD698 /* InfoView.swift */,
 				F4A807B82B45564800EAD698 /* InfoRow.swift */,
 				F4A807BA2B45586800EAD698 /* InfoDetails.swift */,
-				F4A807BC2B455C3B00EAD698 /* HelloView.swift */,
+				F4A807BC2B455C3B00EAD698 /* MapView.swift */,
 				F4A807BE2B455C4700EAD698 /* SettingsView.swift */,
 			);
 			path = "Movie-Lab";
@@ -161,7 +161,7 @@
 				F4A807A92B45505500EAD698 /* ContentView.swift in Sources */,
 				F4A807A72B45505500EAD698 /* Movie_LabApp.swift in Sources */,
 				F4A807BB2B45586800EAD698 /* InfoDetails.swift in Sources */,
-				F4A807BD2B455C3B00EAD698 /* HelloView.swift in Sources */,
+				F4A807BD2B455C3B00EAD698 /* MapView.swift in Sources */,
 				F4A807B92B45564800EAD698 /* InfoRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
